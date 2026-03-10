@@ -1,0 +1,3020 @@
+{
+  "Version": 1,
+  "Hash": "wIHblSW1UOxx6QFe5mghZztnF+wSCRpfH1yIQj0AbLQ=",
+  "Source": "UninetWeb",
+  "BasePath": "_content/UninetWeb",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "UninetWeb\\wwwroot",
+      "Source": "UninetWeb",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\1krkeaf30m-3z27uwq0kb.gz",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "library#[.{fingerprint=3z27uwq0kb}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\library.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "d45dp9a8fa",
+      "Integrity": "04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\library.html"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\5h3etx6eiw-0nt5c1ogbg.gz",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "index#[.{fingerprint=0nt5c1ogbg}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\index.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "w4hkpgrrj2",
+      "Integrity": "wPzLgK1iKmlgAa0lMq58BgUvanxuhZQJ1cqdtEYJ4Ss=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\80zroy2kto-3z27uwq0kb.gz",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "planner#[.{fingerprint=3z27uwq0kb}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\planner.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "d45dp9a8fa",
+      "Integrity": "04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\planner.html"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\a5hpujz2gv-rhont3uf81.gz",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "js/main#[.{fingerprint=rhont3uf81}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\js\\main.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "jjhehf27nn",
+      "Integrity": "T32S+DlL9JwvRa4VWfJx7Bju7umXIsMlc7E+Wy4vbj0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\f1pzzeai6c-oxcadkg698.gz",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "contact#[.{fingerprint=oxcadkg698}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\contact.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "abk9g2w3t2",
+      "Integrity": "6hjoa2GajE2lWcrxhpXFXY+N7D37LAJKWWZgSMTroW0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\contact.html"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\ik4ysq2mjo-3z27uwq0kb.gz",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "features#[.{fingerprint=3z27uwq0kb}]?.html.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\features.html",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "d45dp9a8fa",
+      "Integrity": "04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\features.html"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\qrcepqcayw-idwtlci9lw.gz",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "css/style#[.{fingerprint=idwtlci9lw}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\css\\style.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "2mc7yej19z",
+      "Integrity": "ZvpMxzsV1syz4u4T6TTBkbHL/y8D7uDlx0w6dlLaWXM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\contact.html",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "contact#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oxcadkg698",
+      "Integrity": "/NxYiQi2TCpRBsebSDvKeURr6+6kfsUR7/XmocGzAWY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\contact.html"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\css\\style.css",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "css/style#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "idwtlci9lw",
+      "Integrity": "2nHcklxwCzfVB8o1IuHrlLg4C60mL2zmZLu+CNJhLjQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\features.html",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "features#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3z27uwq0kb",
+      "Integrity": "zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\features.html"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\bibliotek.jpg",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "images/bibliotek#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mnf65dnqu8",
+      "Integrity": "wv0pVe7wh5gfztkZPBfXwSJ5dB2KpadG+OdqDB5Dsao=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\bibliotek.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\Logo.png",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "images/Logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4aozqa17du",
+      "Integrity": "rPdlQ89nyMtjd7DoSUBsdk0Hl6aeUi5sGV65MhMS57k=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\Logo.png"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\planerare.jpg",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "images/planerare#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ox9ipgld5o",
+      "Integrity": "zItSk0ugAqB++6v+/XpsNvmf/qQfuaKzw3q2KIGlo4Q=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\planerare.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\rum.jpg",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "images/rum#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sb6iyo2whh",
+      "Integrity": "eC3hkHm9YY2XwvgCSVfYksM5qfC2BJg0mZuOQSje+wU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\rum.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\schema.png",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "images/schema#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "oijrlh4swx",
+      "Integrity": "cAseJeZ71mCT4uY/85NHEmCtydjOAahtOiDychsXSoc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\schema.png"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\students.jpg",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "images/students#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ip5waktaiz",
+      "Integrity": "5k69OXQ6Tgxba4ZkVd6ucdYyEOK1P/DTxldfrQ9Tcbk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\students.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\index.html",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0nt5c1ogbg",
+      "Integrity": "tCoVYGxM8FnuF9lwjRAD+BUqW3A4a9vi7gSvgT4hENQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\js\\main.js",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "js/main#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rhont3uf81",
+      "Integrity": "QVsibkbvyZ+jLGTsDxmdHqIXAY/5uoU8xLvPRvgfp18=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\library.html",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "library#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3z27uwq0kb",
+      "Integrity": "zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\library.html"
+    },
+    {
+      "Identity": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\planner.html",
+      "SourceId": "UninetWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\",
+      "BasePath": "_content/UninetWeb",
+      "RelativePath": "planner#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3z27uwq0kb",
+      "Integrity": "zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\planner.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "contact.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\f1pzzeai6c-oxcadkg698.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000925069380"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1080"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6hjoa2GajE2lWcrxhpXFXY+N7D37LAJKWWZgSMTroW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/NxYiQi2TCpRBsebSDvKeURr6+6kfsUR7/XmocGzAWY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/NxYiQi2TCpRBsebSDvKeURr6+6kfsUR7/XmocGzAWY="
+        }
+      ]
+    },
+    {
+      "Route": "contact.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\contact.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/NxYiQi2TCpRBsebSDvKeURr6+6kfsUR7/XmocGzAWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-/NxYiQi2TCpRBsebSDvKeURr6+6kfsUR7/XmocGzAWY="
+        }
+      ]
+    },
+    {
+      "Route": "contact.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\f1pzzeai6c-oxcadkg698.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1080"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6hjoa2GajE2lWcrxhpXFXY+N7D37LAJKWWZgSMTroW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6hjoa2GajE2lWcrxhpXFXY+N7D37LAJKWWZgSMTroW0="
+        }
+      ]
+    },
+    {
+      "Route": "contact.oxcadkg698.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\f1pzzeai6c-oxcadkg698.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000925069380"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1080"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6hjoa2GajE2lWcrxhpXFXY+N7D37LAJKWWZgSMTroW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"/NxYiQi2TCpRBsebSDvKeURr6+6kfsUR7/XmocGzAWY=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oxcadkg698"
+        },
+        {
+          "Name": "label",
+          "Value": "contact.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/NxYiQi2TCpRBsebSDvKeURr6+6kfsUR7/XmocGzAWY="
+        }
+      ]
+    },
+    {
+      "Route": "contact.oxcadkg698.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\contact.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3107"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"/NxYiQi2TCpRBsebSDvKeURr6+6kfsUR7/XmocGzAWY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oxcadkg698"
+        },
+        {
+          "Name": "label",
+          "Value": "contact.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-/NxYiQi2TCpRBsebSDvKeURr6+6kfsUR7/XmocGzAWY="
+        }
+      ]
+    },
+    {
+      "Route": "contact.oxcadkg698.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\f1pzzeai6c-oxcadkg698.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1080"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6hjoa2GajE2lWcrxhpXFXY+N7D37LAJKWWZgSMTroW0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oxcadkg698"
+        },
+        {
+          "Name": "label",
+          "Value": "contact.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-6hjoa2GajE2lWcrxhpXFXY+N7D37LAJKWWZgSMTroW0="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\qrcepqcayw-idwtlci9lw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000398724083"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2507"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZvpMxzsV1syz4u4T6TTBkbHL/y8D7uDlx0w6dlLaWXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2nHcklxwCzfVB8o1IuHrlLg4C60mL2zmZLu+CNJhLjQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2nHcklxwCzfVB8o1IuHrlLg4C60mL2zmZLu+CNJhLjQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2nHcklxwCzfVB8o1IuHrlLg4C60mL2zmZLu+CNJhLjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-2nHcklxwCzfVB8o1IuHrlLg4C60mL2zmZLu+CNJhLjQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.css.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\qrcepqcayw-idwtlci9lw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZvpMxzsV1syz4u4T6TTBkbHL/y8D7uDlx0w6dlLaWXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZvpMxzsV1syz4u4T6TTBkbHL/y8D7uDlx0w6dlLaWXM="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.idwtlci9lw.css",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\qrcepqcayw-idwtlci9lw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000398724083"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2507"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZvpMxzsV1syz4u4T6TTBkbHL/y8D7uDlx0w6dlLaWXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"2nHcklxwCzfVB8o1IuHrlLg4C60mL2zmZLu+CNJhLjQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "idwtlci9lw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2nHcklxwCzfVB8o1IuHrlLg4C60mL2zmZLu+CNJhLjQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.idwtlci9lw.css",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\css\\style.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8925"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"2nHcklxwCzfVB8o1IuHrlLg4C60mL2zmZLu+CNJhLjQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "idwtlci9lw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-2nHcklxwCzfVB8o1IuHrlLg4C60mL2zmZLu+CNJhLjQ="
+        }
+      ]
+    },
+    {
+      "Route": "css/style.idwtlci9lw.css.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\qrcepqcayw-idwtlci9lw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZvpMxzsV1syz4u4T6TTBkbHL/y8D7uDlx0w6dlLaWXM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:47:48 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "idwtlci9lw"
+        },
+        {
+          "Name": "label",
+          "Value": "css/style.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZvpMxzsV1syz4u4T6TTBkbHL/y8D7uDlx0w6dlLaWXM="
+        }
+      ]
+    },
+    {
+      "Route": "features.3z27uwq0kb.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\ik4ysq2mjo-3z27uwq0kb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001375515818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3z27uwq0kb"
+        },
+        {
+          "Name": "label",
+          "Value": "features.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "features.3z27uwq0kb.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\features.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3z27uwq0kb"
+        },
+        {
+          "Name": "label",
+          "Value": "features.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "features.3z27uwq0kb.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\ik4ysq2mjo-3z27uwq0kb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3z27uwq0kb"
+        },
+        {
+          "Name": "label",
+          "Value": "features.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU="
+        }
+      ]
+    },
+    {
+      "Route": "features.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\ik4ysq2mjo-3z27uwq0kb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001375515818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "features.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\features.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "features.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\ik4ysq2mjo-3z27uwq0kb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU="
+        }
+      ]
+    },
+    {
+      "Route": "images/bibliotek.jpg",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\bibliotek.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2960775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wv0pVe7wh5gfztkZPBfXwSJ5dB2KpadG+OdqDB5Dsao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:06:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wv0pVe7wh5gfztkZPBfXwSJ5dB2KpadG+OdqDB5Dsao="
+        }
+      ]
+    },
+    {
+      "Route": "images/bibliotek.mnf65dnqu8.jpg",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\bibliotek.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2960775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wv0pVe7wh5gfztkZPBfXwSJ5dB2KpadG+OdqDB5Dsao=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:06:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mnf65dnqu8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/bibliotek.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wv0pVe7wh5gfztkZPBfXwSJ5dB2KpadG+OdqDB5Dsao="
+        }
+      ]
+    },
+    {
+      "Route": "images/Logo.4aozqa17du.png",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rPdlQ89nyMtjd7DoSUBsdk0Hl6aeUi5sGV65MhMS57k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Feb 2026 12:52:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4aozqa17du"
+        },
+        {
+          "Name": "label",
+          "Value": "images/Logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-rPdlQ89nyMtjd7DoSUBsdk0Hl6aeUi5sGV65MhMS57k="
+        }
+      ]
+    },
+    {
+      "Route": "images/Logo.png",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\Logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "62603"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"rPdlQ89nyMtjd7DoSUBsdk0Hl6aeUi5sGV65MhMS57k=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Feb 2026 12:52:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-rPdlQ89nyMtjd7DoSUBsdk0Hl6aeUi5sGV65MhMS57k="
+        }
+      ]
+    },
+    {
+      "Route": "images/planerare.jpg",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\planerare.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3785334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zItSk0ugAqB++6v+/XpsNvmf/qQfuaKzw3q2KIGlo4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:00:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zItSk0ugAqB++6v+/XpsNvmf/qQfuaKzw3q2KIGlo4Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/planerare.ox9ipgld5o.jpg",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\planerare.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3785334"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zItSk0ugAqB++6v+/XpsNvmf/qQfuaKzw3q2KIGlo4Q=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:00:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ox9ipgld5o"
+        },
+        {
+          "Name": "label",
+          "Value": "images/planerare.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zItSk0ugAqB++6v+/XpsNvmf/qQfuaKzw3q2KIGlo4Q="
+        }
+      ]
+    },
+    {
+      "Route": "images/rum.jpg",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\rum.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1624756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eC3hkHm9YY2XwvgCSVfYksM5qfC2BJg0mZuOQSje+wU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-eC3hkHm9YY2XwvgCSVfYksM5qfC2BJg0mZuOQSje+wU="
+        }
+      ]
+    },
+    {
+      "Route": "images/rum.sb6iyo2whh.jpg",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\rum.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1624756"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"eC3hkHm9YY2XwvgCSVfYksM5qfC2BJg0mZuOQSje+wU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:04:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sb6iyo2whh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/rum.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-eC3hkHm9YY2XwvgCSVfYksM5qfC2BJg0mZuOQSje+wU="
+        }
+      ]
+    },
+    {
+      "Route": "images/schema.oijrlh4swx.png",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\schema.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAseJeZ71mCT4uY/85NHEmCtydjOAahtOiDychsXSoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:02:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "oijrlh4swx"
+        },
+        {
+          "Name": "label",
+          "Value": "images/schema.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-cAseJeZ71mCT4uY/85NHEmCtydjOAahtOiDychsXSoc="
+        }
+      ]
+    },
+    {
+      "Route": "images/schema.png",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\schema.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "76560"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"cAseJeZ71mCT4uY/85NHEmCtydjOAahtOiDychsXSoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:02:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-cAseJeZ71mCT4uY/85NHEmCtydjOAahtOiDychsXSoc="
+        }
+      ]
+    },
+    {
+      "Route": "images/students.ip5waktaiz.jpg",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\students.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2936399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5k69OXQ6Tgxba4ZkVd6ucdYyEOK1P/DTxldfrQ9Tcbk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Mar 2026 20:36:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ip5waktaiz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/students.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-5k69OXQ6Tgxba4ZkVd6ucdYyEOK1P/DTxldfrQ9Tcbk="
+        }
+      ]
+    },
+    {
+      "Route": "images/students.jpg",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\students.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2936399"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"5k69OXQ6Tgxba4ZkVd6ucdYyEOK1P/DTxldfrQ9Tcbk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 02 Mar 2026 20:36:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-5k69OXQ6Tgxba4ZkVd6ucdYyEOK1P/DTxldfrQ9Tcbk="
+        }
+      ]
+    },
+    {
+      "Route": "index.0nt5c1ogbg.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\5h3etx6eiw-0nt5c1ogbg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000663129973"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1507"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wPzLgK1iKmlgAa0lMq58BgUvanxuhZQJ1cqdtEYJ4Ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:22:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tCoVYGxM8FnuF9lwjRAD+BUqW3A4a9vi7gSvgT4hENQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0nt5c1ogbg"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCoVYGxM8FnuF9lwjRAD+BUqW3A4a9vi7gSvgT4hENQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.0nt5c1ogbg.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5080"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCoVYGxM8FnuF9lwjRAD+BUqW3A4a9vi7gSvgT4hENQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:22:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0nt5c1ogbg"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCoVYGxM8FnuF9lwjRAD+BUqW3A4a9vi7gSvgT4hENQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.0nt5c1ogbg.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\5h3etx6eiw-0nt5c1ogbg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wPzLgK1iKmlgAa0lMq58BgUvanxuhZQJ1cqdtEYJ4Ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:22:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0nt5c1ogbg"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wPzLgK1iKmlgAa0lMq58BgUvanxuhZQJ1cqdtEYJ4Ss="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\5h3etx6eiw-0nt5c1ogbg.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000663129973"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1507"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wPzLgK1iKmlgAa0lMq58BgUvanxuhZQJ1cqdtEYJ4Ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:22:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"tCoVYGxM8FnuF9lwjRAD+BUqW3A4a9vi7gSvgT4hENQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCoVYGxM8FnuF9lwjRAD+BUqW3A4a9vi7gSvgT4hENQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5080"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tCoVYGxM8FnuF9lwjRAD+BUqW3A4a9vi7gSvgT4hENQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:22:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tCoVYGxM8FnuF9lwjRAD+BUqW3A4a9vi7gSvgT4hENQ="
+        }
+      ]
+    },
+    {
+      "Route": "index.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\5h3etx6eiw-0nt5c1ogbg.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wPzLgK1iKmlgAa0lMq58BgUvanxuhZQJ1cqdtEYJ4Ss=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:22:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wPzLgK1iKmlgAa0lMq58BgUvanxuhZQJ1cqdtEYJ4Ss="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\a5hpujz2gv-rhont3uf81.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001709401709"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T32S+DlL9JwvRa4VWfJx7Bju7umXIsMlc7E+Wy4vbj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QVsibkbvyZ+jLGTsDxmdHqIXAY/5uoU8xLvPRvgfp18=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QVsibkbvyZ+jLGTsDxmdHqIXAY/5uoU8xLvPRvgfp18="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QVsibkbvyZ+jLGTsDxmdHqIXAY/5uoU8xLvPRvgfp18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QVsibkbvyZ+jLGTsDxmdHqIXAY/5uoU8xLvPRvgfp18="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.js.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\a5hpujz2gv-rhont3uf81.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T32S+DlL9JwvRa4VWfJx7Bju7umXIsMlc7E+Wy4vbj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T32S+DlL9JwvRa4VWfJx7Bju7umXIsMlc7E+Wy4vbj0="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.rhont3uf81.js",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\a5hpujz2gv-rhont3uf81.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001709401709"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T32S+DlL9JwvRa4VWfJx7Bju7umXIsMlc7E+Wy4vbj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"QVsibkbvyZ+jLGTsDxmdHqIXAY/5uoU8xLvPRvgfp18=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rhont3uf81"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QVsibkbvyZ+jLGTsDxmdHqIXAY/5uoU8xLvPRvgfp18="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.rhont3uf81.js",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\js\\main.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1624"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QVsibkbvyZ+jLGTsDxmdHqIXAY/5uoU8xLvPRvgfp18=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rhont3uf81"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QVsibkbvyZ+jLGTsDxmdHqIXAY/5uoU8xLvPRvgfp18="
+        }
+      ]
+    },
+    {
+      "Route": "js/main.rhont3uf81.js.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\a5hpujz2gv-rhont3uf81.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T32S+DlL9JwvRa4VWfJx7Bju7umXIsMlc7E+Wy4vbj0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 23:23:04 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rhont3uf81"
+        },
+        {
+          "Name": "label",
+          "Value": "js/main.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T32S+DlL9JwvRa4VWfJx7Bju7umXIsMlc7E+Wy4vbj0="
+        }
+      ]
+    },
+    {
+      "Route": "library.3z27uwq0kb.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\1krkeaf30m-3z27uwq0kb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001375515818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3z27uwq0kb"
+        },
+        {
+          "Name": "label",
+          "Value": "library.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "library.3z27uwq0kb.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\library.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3z27uwq0kb"
+        },
+        {
+          "Name": "label",
+          "Value": "library.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "library.3z27uwq0kb.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\1krkeaf30m-3z27uwq0kb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3z27uwq0kb"
+        },
+        {
+          "Name": "label",
+          "Value": "library.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU="
+        }
+      ]
+    },
+    {
+      "Route": "library.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\1krkeaf30m-3z27uwq0kb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001375515818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "library.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\library.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "library.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\1krkeaf30m-3z27uwq0kb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:50 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU="
+        }
+      ]
+    },
+    {
+      "Route": "planner.3z27uwq0kb.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\80zroy2kto-3z27uwq0kb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001375515818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3z27uwq0kb"
+        },
+        {
+          "Name": "label",
+          "Value": "planner.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "planner.3z27uwq0kb.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\planner.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3z27uwq0kb"
+        },
+        {
+          "Name": "label",
+          "Value": "planner.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "planner.3z27uwq0kb.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\80zroy2kto-3z27uwq0kb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3z27uwq0kb"
+        },
+        {
+          "Name": "label",
+          "Value": "planner.html.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU="
+        }
+      ]
+    },
+    {
+      "Route": "planner.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\80zroy2kto-3z27uwq0kb.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001375515818"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "planner.html",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\planner.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1975"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zwgin3ZQkNFV71ipft7Ssh2PYn1kJOKFGlxpHBvzOOQ="
+        }
+      ]
+    },
+    {
+      "Route": "planner.html.gz",
+      "AssetFile": "C:\\Users\\ashle\\Desktop\\UninetWeb\\obj\\Debug\\net9.0\\compressed\\80zroy2kto-3z27uwq0kb.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "726"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 08 Mar 2026 22:31:56 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-04fGT+3STF7aYbLC2SlLruGB3c7FvqSIym+5jH6BtbU="
+        }
+      ]
+    }
+  ]
+}

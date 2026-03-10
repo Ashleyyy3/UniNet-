@@ -1,0 +1,77 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\contact.html",
+      "PackagePath": "staticwebassets\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\features.html",
+      "PackagePath": "staticwebassets\\features.html"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\Logo.png",
+      "PackagePath": "staticwebassets\\images\\Logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\bibliotek.jpg",
+      "PackagePath": "staticwebassets\\images\\bibliotek.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\planerare.jpg",
+      "PackagePath": "staticwebassets\\images\\planerare.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\rum.jpg",
+      "PackagePath": "staticwebassets\\images\\rum.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\schema.png",
+      "PackagePath": "staticwebassets\\images\\schema.png"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\images\\students.jpg",
+      "PackagePath": "staticwebassets\\images\\students.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\library.html",
+      "PackagePath": "staticwebassets\\library.html"
+    },
+    {
+      "Id": "C:\\Users\\ashle\\Desktop\\UninetWeb\\wwwroot\\planner.html",
+      "PackagePath": "staticwebassets\\planner.html"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.UninetWeb.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.UninetWeb.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.UninetWeb.props",
+      "PackagePath": "build\\UninetWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.UninetWeb.props",
+      "PackagePath": "buildMultiTargeting\\UninetWeb.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.UninetWeb.props",
+      "PackagePath": "buildTransitive\\UninetWeb.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
