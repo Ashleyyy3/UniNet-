@@ -3,8 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UniNet</title>
+  <title>UniNet | Planerare</title>
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
   <script defer src="js/main.js"></script>
 </head>
 <body>
@@ -14,28 +16,18 @@
   <!-- Header/Navbar -->
   <header>
     <nav class="navbar section-content">
-      <a href="#" class="nav-logo">
+      <a href="index.html" class="nav-logo">
         <h2 class="logo-text">UniNet</h2>
       </a>
 
-      <button class="menu-toggle" type="button">Meny ☰</button>
+      <button class="menu-toggle" type="button" aria-label="Öppna meny">Meny ☰</button>
 
       <ul class="nav-menu" id="navMenu">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">Hem</a>
-        </li>
-        <li class="nav-item">
-          <a href="features.html" class="nav-link">Funktioner</a>
-        </li>
-        <li class="nav-item">
-          <a href="planner.html" class="nav-link">Planerare</a>
-        </li>
-        <li class="nav-item">
-          <a href="library.html" class="nav-link">Bibliotek</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">Kontakt</a>
-        </li>
+        <li class="nav-item"><a href="index.html" class="nav-link">Hem</a></li>
+        <li class="nav-item"><a href="features.html" class="nav-link">Funktioner</a></li>
+        <li class="nav-item"><a href="planner.html" class="nav-link">Planerare</a></li>
+        <li class="nav-item"><a href="library.html" class="nav-link">Bibliotek</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
       </ul>
     </nav>
   </header>
@@ -44,32 +36,91 @@
     <!-- Hero -->
     <section class="hero-section">
       <div class="hero-details">
-        <h2 class="title">UniNet</h2>
-        <h3 class="subtitle">Allt för din studievardag på ett ställe</h3>
+        <h1 class="title">Planerare</h1>
+        <h2 class="subtitle">Håll koll på uppgifter, datum och kommande händelser</h2>
 
         <p>
-          UniNet hjälper studenter att hålla koll på schema, deadlines och resurser.
-          Planera din vecka, boka studierum och samla allt kursmaterial på ett ställe.
+          Planera din vecka, skriv ner uppgifter i checklistan och lägg till viktiga
+          händelser direkt i kalendern.
         </p>
 
         <div class="buttons">
-          <a href="features.html" class="hero-btn hero-btn-outline">Se funktioner</a>
-          <a href="planner.html" class="hero-btn hero-btn-outline">Öppna planeraren</a>
+          <a href="#checklista" class="hero-btn hero-btn-outline">Till checklistan</a>
+          <a href="#kalender" class="hero-btn hero-btn-outline">Till kalendern</a>
         </div>
       </div>
     </section>
 
-    <!-- Checklista -->
+    <!-- Planner -->
     <section class="planner-section">
       <div class="section-content">
-        <h2>Studiechecklista</h2>
 
-        <div class="todo-input">
-          <input type="text" id="taskInput" placeholder="Skriv en uppgift...">
-          <button id="addTaskBtn">Lägg till</button>
+        <div class="planner-grid">
+          <!-- Checklista -->
+          <article class="planner-card" id="checklista">
+            <h2>Studiechecklista</h2>
+            <p>Lägg till uppgifter och bocka av dem när de är klara.</p>
+
+            <div class="todo-input">
+              <input
+                type="text"
+                id="taskInput"
+                placeholder="Skriv en uppgift..."
+                aria-label="Ny uppgift">
+              <button id="addTaskBtn" type="button">Lägg till</button>
+            </div>
+
+            <ul id="taskList" class="task-list"></ul>
+          </article>
+
+          <!-- Kalender -->
+          <article class="planner-card" id="kalender">
+            <h2>Kalender</h2>
+            <p>Klicka på ett datum och lägg till en händelse.</p>
+
+            <div class="calendar-box">
+              <div class="calendar-header">
+                <button id="prevMonthBtn" type="button" aria-label="Föregående månad">←</button>
+                <h3 id="calendarMonthYear">Månad År</h3>
+                <button id="nextMonthBtn" type="button" aria-label="Nästa månad">→</button>
+              </div>
+
+              <div class="calendar-days">
+                <div>Mån</div>
+                <div>Tis</div>
+                <div>Ons</div>
+                <div>Tor</div>
+                <div>Fre</div>
+                <div>Lör</div>
+                <div>Sön</div>
+              </div>
+
+              <div id="calendarDates" class="calendar-dates"></div>
+            </div>
+
+            <div class="event-box">
+              <h3>Lägg till händelse</h3>
+              <p id="selectedDateText">Välj ett datum i kalendern</p>
+
+              <div class="event-input-row">
+                <input
+                  type="text"
+                  id="eventInput"
+                  placeholder="Skriv en händelse..."
+                  aria-label="Ny händelse">
+                <button id="addEventBtn" type="button">Lägg till</button>
+              </div>
+            </div>
+          </article>
         </div>
 
-        <ul id="taskList" class="task-list"></ul>
+        <!-- Kommande händelser -->
+        <section class="planner-card upcoming-card">
+          <h2>Kommande händelser</h2>
+          <p>Här visas dina sparade händelser i datumordning.</p>
+          <ul id="eventList" class="event-list"></ul>
+        </section>
+
       </div>
     </section>
   </main>
