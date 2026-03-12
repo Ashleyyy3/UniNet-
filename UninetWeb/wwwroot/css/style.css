@@ -50,7 +50,8 @@ button{
 }
 
 img{
-  width: 100%;
+  max-width: 100%;
+  height: auto;
 }
 
 .section-content{
@@ -66,28 +67,35 @@ header{
 
 header .navbar{
   display: flex;
-  padding: 20px;
   align-items: center;
   justify-content: space-between;
+  padding: 0px 40px;
 }
 
-.navbar .nav-logo .logo-text{
-  color: var(--white-color);
-  font-size: var(--font-size-xl);
-  font-weight: var(--font-weight-semibold);
+.nav-logo{
+  display: flex;
+  align-items: center;
+}
+
+.logo-img{
+  height: 110px;
+  width: auto;
+  display: block;
 }
 
 .navbar .nav-menu{
   display: flex;
-  gap: 10px;
+  align-items: center;
+  gap: 30px;
 }
 
 /* Navbar länkar */
 .navbar .nav-menu .nav-link{
-  padding: 10px 18px;
+  padding: 14px 20px;
   color: var(--white-color);
-  font-size: var(--font-size-s);
-  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 15px;
   transition: 0.3s ease;
 }
 
@@ -253,6 +261,10 @@ header .navbar{
 
   .menu-toggle:hover{
     background: rgba(255,255,255,0.28);
+  }
+
+  .logo-img{
+    height: 24px;
   }
 }
 
