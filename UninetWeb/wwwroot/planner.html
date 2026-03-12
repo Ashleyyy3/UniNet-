@@ -8,12 +8,12 @@
   <script defer src="js/main.js"></script>
 </head>
 <body>
- 
+
   <div class="menu-overlay" id="menuOverlay"></div>
 
-  <!--Header/Navbar-->
+  <!-- Header/Navbar -->
   <header>
-    <nav class = "navbar section-content">
+    <nav class="navbar section-content">
       <a href="#" class="nav-logo">
         <h2 class="logo-text">UniNet</h2>
       </a>
@@ -28,7 +28,7 @@
           <a href="features.html" class="nav-link">Funktioner</a>
         </li>
         <li class="nav-item">
-          <a href="planner.html" class="nav-link">planerare </a>
+          <a href="planner.html" class="nav-link">Planerare</a>
         </li>
         <li class="nav-item">
           <a href="library.html" class="nav-link">Bibliotek</a>
@@ -36,49 +36,68 @@
         <li class="nav-item">
           <a href="contact.html" class="nav-link">Kontakt</a>
         </li>
-
       </ul>
-
     </nav>
   </header>
 
+  <main>
+    <!-- Hero -->
+    <section class="hero-section">
+      <div class="hero-details">
+        <h2 class="title">UniNet</h2>
+        <h3 class="subtitle">Allt för din studievardag på ett ställe</h3>
 
-<!--ALLA ANDRA KOD HÄR INNE -->
-  
+        <p>
+          UniNet hjälper studenter att hålla koll på schema, deadlines och resurser.
+          Planera din vecka, boka studierum och samla allt kursmaterial på ett ställe.
+        </p>
 
+        <div class="buttons">
+          <a href="features.html" class="hero-btn hero-btn-outline">Se funktioner</a>
+          <a href="planner.html" class="hero-btn hero-btn-outline">Öppna planeraren</a>
+        </div>
+      </div>
+    </section>
 
+    <!-- Checklista -->
+    <section class="planner-section">
+      <div class="section-content">
+        <h2>Studiechecklista</h2>
 
+        <div class="todo-input">
+          <input type="text" id="taskInput" placeholder="Skriv en uppgift...">
+          <button id="addTaskBtn">Lägg till</button>
+        </div>
 
+        <ul id="taskList" class="task-list"></ul>
+      </div>
+    </section>
+  </main>
 
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section-content footer-content">
+      <div class="footer-column">
+        <h3>UniNet</h3>
+        <p>En plattform för studenter som vill ha bättre struktur i sin studievardag.</p>
+      </div>
 
+      <div class="footer-column">
+        <h3>Snabblänkar</h3>
+        <a href="index.html">Hem</a>
+        <a href="features.html">Funktioner</a>
+        <a href="planner.html">Planerare</a>
+        <a href="library.html">Bibliotek</a>
+        <a href="contact.html">Kontakt</a>
+      </div>
 
-
-
-  <!--FOOTERRR-->
-<footer class="footer">
-  <div class="section-content footer-content">
-    <div class="footer-column">
-      <h3>UniNet</h3>
-      <p>En plattform för studenter som vill ha bättre struktur i sin studievardag.</p>
+      <div class="footer-column">
+        <h3>Kontakt</h3>
+        <p>support@uninet.se</p>
+        <p>© 2026 UniNet</p>
+      </div>
     </div>
-
-    <div class="footer-column">
-      <h3>Snabblänkar</h3>
-      <a href="index.html">Hem</a>
-      <a href="features.html">Funktioner</a>
-      <a href="planner.html">Planerare</a>
-      <a href="library.html">Bibliotek</a>
-      <a href="contact.html">Kontakt</a>
-    </div>
-
-    <div class="footer-column">
-      <h3>Kontakt</h3>
-      <p>support@uninet.se</p>
-      <p>© 2026 UniNet</p>
-    </div>
-  </div>
-</footer>
-
+  </footer>
 
 </body>
-  
+</html>

@@ -34,3 +34,40 @@ C:\Users\ashle\Desktop\UninetWeb\obj\Debug\net9.0\compressed\5h3etx6eiw-0nt5c1og
 C:\Users\ashle\Desktop\UninetWeb\obj\Debug\net9.0\compressed\a5hpujz2gv-rhont3uf81.gz
 C:\Users\ashle\Desktop\UninetWeb\obj\Debug\net9.0\compressed\1krkeaf30m-3z27uwq0kb.gz
 C:\Users\ashle\Desktop\UninetWeb\obj\Debug\net9.0\compressed\80zroy2kto-3z27uwq0kb.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\bin\Debug\net9.0\appsettings.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\bin\Debug\net9.0\UninetWeb.staticwebassets.runtime.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\bin\Debug\net9.0\UninetWeb.staticwebassets.endpoints.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\bin\Debug\net9.0\UninetWeb.exe
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\bin\Debug\net9.0\UninetWeb.deps.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\bin\Debug\net9.0\UninetWeb.runtimeconfig.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\bin\Debug\net9.0\UninetWeb.dll
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\bin\Debug\net9.0\UninetWeb.pdb
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.AssemblyInfoInputs.cache
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.AssemblyInfo.cs
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.csproj.CoreCompileInputs.cache
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.sourcelink.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\scopedcss\bundle\UninetWeb.styles.css
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\xuoaqta0kl-{0}-ft03ggzkx0-ft03ggzkx0.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\rweq6vu8qn-{0}-wamo9n302g-wamo9n302g.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\7bdhaejkmv-{0}-oclzqd10pu-oclzqd10pu.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\3c14iwi9kt-{0}-4lxjvddfle-4lxjvddfle.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\avbrldkb9r-{0}-elmwotna07-elmwotna07.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\y993uux2tb-{0}-cqbokx1fl3-cqbokx1fl3.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\jalrswbpw3-{0}-bqq4dezthr-bqq4dezthr.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\swae.build.ex.cache
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.dll
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\refint\UninetWeb.dll
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.pdb
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.genruntimeconfig.cache
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\ref\UninetWeb.dll

@@ -1,13 +1,27 @@
-//drop down menu/
+// Dropdown menu
 const btn = document.querySelector(".menu-toggle");
 const menu = document.querySelector("#navMenu");
+const overlay = document.querySelector("#menuOverlay");
 
-btn.addEventListener("click", () => {
-  menu.classList.toggle("open");
-});
+if (btn && menu) {
+  btn.addEventListener("click", () => {
+    menu.classList.toggle("open");
 
-//Shows red error if form isn't filled in right
-//const contactForm = document.getElementById("contactForm");
+    if (overlay) {
+      overlay.classList.toggle("show");
+    }
+  });
+
+  if (overlay) {
+    overlay.addEventListener("click", () => {
+      menu.classList.remove("open");
+      overlay.classList.remove("show");
+    });
+  }
+}
+
+// Contact form validation
+const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
   contactForm.addEventListener("submit", function (event) {
@@ -49,11 +63,105 @@ if (contactForm) {
 
   function showError(input, message) {
     input.classList.add("error");
-    input.nextElementSibling.textContent = message;
+
+    if (input.nextElementSibling) {
+      input.nextElementSibling.textContent = message;
+    }
   }
 
   function clearError(input) {
     input.classList.remove("error");
-    input.nextElementSibling.textContent = "";
+
+    if (input.nextElementSibling) {
+      input.nextElementSibling.textContent = "";
+    }
   }
-} 
+}
+
+// Planner checklist
+document.addEventListener("DOMContentLoaded", () => {
+  const taskInput = document.getElementById("taskInput");
+  const addTaskBtn = document.getElementById("addTaskBtn");
+  const taskList = document.getElementById("taskList");
+
+  if (!taskInput || !addTaskBtn || !taskList) return;
+
+  const demoTasks = [
+    { text: "Läsa kapitel 3 i kursboken", done: false },
+    { text: "Lämna in webbdesignuppgiften", done: false },
+    { text: "Tenta - Webbdesign", done: true },
+    { text: "Studiefika med vänner", done: false }
+  ];
+
+  let tasks = JSON.parse(localStorage.getItem("tasks")) || demoTasks;
+
+  renderTasks();
+
+  addTaskBtn.addEventListener("click", addTask);
+
+  taskInput.addEventListener("keydown", function (event) {
+    if (event.key === "Enter") {
+      addTask();
+    }
+  });
+
+  function addTask() {
+    const taskText = taskInput.value.trim();
+
+    if (taskText === "") return;
+
+    tasks.push({
+      text: taskText,
+      done: false
+    });
+
+    taskInput.value = "";
+    saveTasks();
+    renderTasks();
+  }
+
+  function renderTasks() {
+    taskList.innerHTML = "";
+
+    tasks.forEach((task, index) => {
+      const li = document.createElement("li");
+
+      const checkbox = document.createElement("input");
+      checkbox.type = "checkbox";
+      checkbox.checked = task.done;
+
+      const span = document.createElement("span");
+      span.textContent = task.text;
+
+      if (task.done) {
+        span.style.textDecoration = "line-through";
+        span.style.opacity = "0.7";
+      }
+
+      checkbox.addEventListener("change", () => {
+        tasks[index].done = checkbox.checked;
+        saveTasks();
+        renderTasks();
+      });
+
+      const deleteBtn = document.createElement("button");
+      deleteBtn.textContent = "Ta bort";
+
+      deleteBtn.addEventListener("click", () => {
+        tasks.splice(index, 1);
+        saveTasks();
+        renderTasks();
+      });
+
+      li.appendChild(checkbox);
+      li.appendChild(span);
+      li.appendChild(deleteBtn);
+
+      taskList.appendChild(li);
+    });
+  }
+
+  function saveTasks() {
+    localStorage.setItem("tasks", JSON.stringify(tasks));
+  }
+});

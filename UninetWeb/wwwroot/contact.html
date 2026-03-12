@@ -8,12 +8,12 @@
   <script defer src="js/main.js"></script>
 </head>
 <body>
- 
+
   <div class="menu-overlay" id="menuOverlay"></div>
 
-  <!--Header/Navbar-->
+  <!-- Header/Navbar -->
   <header>
-    <nav class = "navbar section-content">
+    <nav class="navbar section-content">
       <a href="#" class="nav-logo">
         <h2 class="logo-text">UniNet</h2>
       </a>
@@ -21,91 +21,77 @@
       <button class="menu-toggle" type="button">Meny ☰</button>
 
       <ul class="nav-menu" id="navMenu">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">Hem</a>
-        </li>
-        <li class="nav-item">
-          <a href="features.html" class="nav-link">Funktioner</a>
-        </li>
-        <li class="nav-item">
-          <a href="planner.html" class="nav-link">planerare </a>
-        </li>
-        <li class="nav-item">
-          <a href="library.html" class="nav-link">Bibliotek</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">Kontakt</a>
-        </li>
-
+        <li class="nav-item"><a href="index.html" class="nav-link">Hem</a></li>
+        <li class="nav-item"><a href="features.html" class="nav-link">Funktioner</a></li>
+        <li class="nav-item"><a href="planner.html" class="nav-link">Planerare</a></li>
+        <li class="nav-item"><a href="library.html" class="nav-link">Bibliotek</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
       </ul>
-
     </nav>
   </header>
 
+  <main>
+    <section class="contact-section">
+      <div class="contact-box">
 
-<main>
-  <section class="contact-section">
-    <div class="contact-box">
+        <div class="contact-header">
+          <h1>Kontakta oss</h1>
+          <p>
+            Har du frågor om UniNet eller behöver hjälp? Skicka ett meddelande så
+            återkommer vi så snart som möjligt.
+          </p>
+        </div>
 
-      <div class="contact-header">
-        <h1>Kontakta oss</h1>
-        <p>
-          Har du frågor om UniNet eller behöver hjälp? Skicka ett meddelande så
-          återkommer vi så snart som möjligt.
-        </p>
+        <form class="contact-form" id="contactForm" method="post" action="/contact" novalidate>
+          <div class="form-group">
+            <label for="name">Namn</label>
+            <input type="text" id="name" name="name" placeholder="Ditt namn" required>
+            <small class="error-message"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="email">E-post</label>
+            <input type="email" id="email" name="email" placeholder="din@email.se" required>
+            <small class="error-message"></small>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Meddelande</label>
+            <textarea id="message" name="message" rows="5" placeholder="Skriv ditt meddelande här..." required></textarea>
+            <small class="error-message"></small>
+          </div>
+
+          <button type="submit" class="submit-btn">Skicka meddelande</button>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="section-content footer-content">
+      <div class="footer-column">
+        <h3>UniNet</h3>
+        <p>En plattform för studenter som vill ha bättre struktur i sin studievardag.</p>
       </div>
 
-  <form class="contact-form" id="contactForm" method="post" action="/contact" novalidate>
-  <div class="form-group">
-    <label for="name">Namn</label>
-    <input type="text" id="name" name="name" placeholder="Ditt namn" required>
-    <small class="error-message"></small>
-  </div>
+      <div class="footer-column">
+        <h3>Snabblänkar</h3>
+        <a href="index.html">Hem</a>
+        <a href="features.html">Funktioner</a>
+        <a href="planner.html">Planerare</a>
+        <a href="library.html">Bibliotek</a>
+        <a href="contact.html">Kontakt</a>
+      </div>
 
-  <div class="form-group">
-    <label for="email">E-post</label>
-    <input type="email" id="email" name="email" placeholder="din@email.se" required>
-    <small class="error-message"></small>
-  </div>
-
-  <div class="form-group">
-    <label for="message">Meddelande</label>
-    <textarea id="message" name="message" rows="5" placeholder="Skriv ditt meddelande här..." required></textarea>
-    <small class="error-message"></small>
-  </div>
-
-  <button type="submit" class="submit-btn">Skicka meddelande</button>
-   </form>
-
+      <div class="footer-column">
+        <h3>Kontakt</h3>
+        <p>support@uninet.se</p>
+        <p>© 2026 UniNet</p>
+      </div>
     </div>
-  </section>
-</main>
-
-  <!--FOOTERRR-->
-<footer class="footer">
-  <div class="section-content footer-content">
-    <div class="footer-column">
-      <h3>UniNet</h3>
-      <p>En plattform för studenter som vill ha bättre struktur i sin studievardag.</p>
-    </div>
-
-    <div class="footer-column">
-      <h3>Snabblänkar</h3>
-      <a href="index.html">Hem</a>
-      <a href="features.html">Funktioner</a>
-      <a href="planner.html">Planerare</a>
-      <a href="library.html">Bibliotek</a>
-      <a href="contact.html">Kontakt</a>
-    </div>
-
-    <div class="footer-column">
-      <h3>Kontakt</h3>
-      <p>support@uninet.se</p>
-      <p>© 2026 UniNet</p>
-    </div>
-  </div>
-</footer>
-
+  </footer>
 
 </body>
-  
+</html>
