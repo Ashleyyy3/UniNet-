@@ -96,6 +96,11 @@ header .navbar{
   background: var(--secondary-color);
 }
 
+.navbar .nav-menu .nav-link.active{
+  background: var(--secondary-color);
+  color: var(--dark-color);
+}
+
 /* HERO BANNER */
 .hero-section{
   position: relative;
