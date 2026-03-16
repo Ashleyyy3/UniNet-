@@ -88,11 +88,21 @@ if (btn && menu) {
 const contactForm = document.getElementById("contactForm");
 
 if (contactForm) {
-  contactForm.addEventListener("submit", function (event) {
-    const name = document.getElementById("name");
-    const email = document.getElementById("email");
-    const message = document.getElementById("message");
+  const name = document.getElementById("name");
+  const email = document.getElementById("email");
+  const message = document.getElementById("message");
+  const messageCounter = document.getElementById("messageCounter");
 
+  if (message && messageCounter) {
+    function updateCounter() {
+      messageCounter.textContent = `${message.value.length} / 500 tecken`;
+    }
+
+    updateCounter();
+    message.addEventListener("input", updateCounter);
+  }
+
+  contactForm.addEventListener("submit", function (event) {
     let isValid = true;
 
     clearError(name);
@@ -115,9 +125,6 @@ if (contactForm) {
     if (message.value.trim() === "") {
       showError(message, "Skriv ett meddelande.");
       isValid = false;
-    } else if (message.value.trim().length < 10) {
-      showError(message, "Meddelandet måste vara minst 10 tecken.");
-      isValid = false;
     }
 
     if (!isValid) {
@@ -125,19 +132,21 @@ if (contactForm) {
     }
   });
 
-  function showError(input, message) {
+  function showError(input, messageText) {
     input.classList.add("error");
 
-    if (input.nextElementSibling) {
-      input.nextElementSibling.textContent = message;
+    const errorElement = input.parentElement.querySelector(".error-message");
+    if (errorElement) {
+      errorElement.textContent = messageText;
     }
   }
 
   function clearError(input) {
     input.classList.remove("error");
 
-    if (input.nextElementSibling) {
-      input.nextElementSibling.textContent = "";
+    const errorElement = input.parentElement.querySelector(".error-message");
+    if (errorElement) {
+      errorElement.textContent = "";
     }
   }
 }

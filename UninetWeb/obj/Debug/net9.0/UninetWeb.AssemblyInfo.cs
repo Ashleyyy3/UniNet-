@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UninetWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5d622c0f13d464a978f8a58cd856d80dcd959d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d5978c8218645016d69856e6a0e9e6256c001520")]
 [assembly: System.Reflection.AssemblyProductAttribute("UninetWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UninetWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

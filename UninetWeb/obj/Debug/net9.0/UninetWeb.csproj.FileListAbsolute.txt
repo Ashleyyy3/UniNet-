@@ -54,13 +54,6 @@ C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\rjimswa.d
 C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
 C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
 C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\scopedcss\bundle\UninetWeb.styles.css
-C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\xuoaqta0kl-{0}-ft03ggzkx0-ft03ggzkx0.gz
-C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\rweq6vu8qn-{0}-wamo9n302g-wamo9n302g.gz
-C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\7bdhaejkmv-{0}-oclzqd10pu-oclzqd10pu.gz
-C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\3c14iwi9kt-{0}-4lxjvddfle-4lxjvddfle.gz
-C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\avbrldkb9r-{0}-elmwotna07-elmwotna07.gz
-C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\y993uux2tb-{0}-cqbokx1fl3-cqbokx1fl3.gz
-C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\jalrswbpw3-{0}-bqq4dezthr-bqq4dezthr.gz
 C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\staticwebassets.build.json
 C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\staticwebassets.build.json.cache
 C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\staticwebassets.development.json
@@ -71,3 +64,10 @@ C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\refint\Un
 C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.pdb
 C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\UninetWeb.genruntimeconfig.cache
 C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\ref\UninetWeb.dll
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\xuoaqta0kl-{0}-7cv5dyelgl-7cv5dyelgl.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\rweq6vu8qn-{0}-89a9px7aea-89a9px7aea.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\7bdhaejkmv-{0}-jswdwndxkm-jswdwndxkm.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\3c14iwi9kt-{0}-n96bcjqg1d-n96bcjqg1d.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\avbrldkb9r-{0}-tj270fil0s-tj270fil0s.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\y993uux2tb-{0}-cygvth585x-cygvth585x.gz
+C:\Users\Min Dator\Documents\GitHub\UniNet-\UninetWeb\obj\Debug\net9.0\compressed\jalrswbpw3-{0}-vwlzvug3az-vwlzvug3az.gz

@@ -865,6 +865,14 @@ header .navbar{
   background: #fff5f5;
 }
 
+.char-counter{
+  display: block;
+  margin-top: 6px;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: right;
+}
+
 /* LIBRARY PAGE */
 .library-hero{
   background: linear-gradient(180deg, #98d7f6 0%, #eaf7fd 100%);
