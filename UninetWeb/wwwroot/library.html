@@ -5,134 +5,163 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>UniNet | Bibliotek</title>
 
+  <!-- Extern CSS -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/Logo.png">
+
+  <!-- JavaScript -->
   <script defer src="js/main.js"></script>
 </head>
 <body>
- 
+
+  <!-- Overlay för mobilmenyn -->
   <div class="menu-overlay" id="menuOverlay"></div>
 
-  <!--Header/Navbar-->
+  <!-- ===== HEADER / NAVIGATION ===== -->
   <header>
-    <nav class = "navbar section-content">
-<a href="index.html" class="nav-logo">
-  <img src="images/Logo.png" alt="UniNet logga" class="logo-img">
-</a>
+    <nav class="navbar section-content">
 
-      <button class="menu-toggle" type="button">Meny ☰</button>
+      <!-- Logotyp -->
+      <a href="index.html" class="nav-logo">
+        <img src="images/Logo.png" alt="UniNet logga" class="logo-img">
+      </a>
 
+      <!-- Menyknapp för mobil -->
+      <button class="menu-toggle" type="button" aria-label="Öppna meny" aria-expanded="false">
+        Meny ☰
+      </button>
+
+      <!-- Navigationslänkar -->
       <ul class="nav-menu" id="navMenu">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">Hem</a>
-        </li>
-        <li class="nav-item">
-          <a href="features.html" class="nav-link">Funktioner</a>
-        </li>
-        <li class="nav-item">
-          <a href="planner.html" class="nav-link">Planerare </a>
-        </li>
-        <li class="nav-item">
-          <a href="library.html" class="nav-link">Bibliotek</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">Kontakt</a>
-        </li>
-
+        <li class="nav-item"><a href="index.html" class="nav-link">Hem</a></li>
+        <li class="nav-item"><a href="features.html" class="nav-link">Funktioner</a></li>
+        <li class="nav-item"><a href="planner.html" class="nav-link">Planerare</a></li>
+        <li class="nav-item"><a href="library.html" class="nav-link">Bibliotek</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
       </ul>
 
     </nav>
   </header>
-<section class="library-hero">
-  <div class="section-content">
-    <h1>Bibliotek</h1>
-    <p>Hitta studiematerial, guider och resurser på ett enkelt sätt.</p>
 
-    <div class="library-search-bar">
-      <input type="text" placeholder="Sök i biblioteket..." />
-      <button type="button">Sök</button>
-    </div>
-  </div>
-</section>
+  <!-- ===== HUVUDINNEHÅLL ===== -->
+  <main>
 
-<section class="library-tools section-content">
-  <h2>Snabbval</h2>
-  <div class="library-tool-grid">
-    <a href="#" class="library-tool">Mina lån</a>
-    <a href="#" class="library-tool">E-böcker</a>
-    <a href="#" class="library-tool">Databaser</a>
-    <a href="#" class="library-tool">Studietips</a>
-  </div>
-</section>
+    <!-- Hero-sektion för biblioteket -->
+    <section class="library-hero">
+      <div class="section-content">
+        <h1>Bibliotek</h1>
+        <p>Hitta studiematerial, guider och resurser på ett enkelt sätt.</p>
 
-<section class="library-cards section-content">
-  <h2>Populärt just nu</h2>
-
-  <div class="library-card-grid">
-    <article class="library-resource-card">
-      <img src="images/sök.jpg" alt="Studenter som studerar" />
-      <div class="library-card-text">
-        <h3>Söka information</h3>
-        <p>Lär dig hitta rätt källor, databaser och artiklar för dina uppgifter.</p>
-        <a href="https://gslg-hb.primo.exlibrisgroup.com/discovery/dbsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=46GSLG_BORAS:46BORAS_V1&lang=sv&offset=0&databases=category,Databases%20by%20type%E2%94%80Search%20engines" 
-        class="hero-btn">Läs mer</a>
+        <!-- Enkelt sökfält -->
+        <div class="library-search-bar">
+          <label for="librarySearch" class="sr-only">Sök i biblioteket</label>
+          <input type="text" id="librarySearch" placeholder="Sök i biblioteket...">
+          <button type="button">Sök</button>
+        </div>
       </div>
-    </article>
+    </section>
 
-    <article class="library-resource-card">
-      <img src="images/bibliotek.jpg" alt="Böcker i bibliotek" />
-      <div class="library-card-text">
-        <h3>Skriva och referera</h3>
-        <p>Få hjälp med referenser, källkritik och akademiskt skrivande.</p>
-        <a href="https://gslg-hb.primo.exlibrisgroup.com/discovery/dbsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=46GSLG_BORAS:46BORAS_V1&lang=sv&offset=0&databases=category,Databases%20by%20type%E2%94%80Reference%20databases"
-         class="hero-btn">Läs mer</a>
+    <!-- Snabbval / genvägar -->
+    <section class="library-tools section-content">
+      <h2>Snabbval</h2>
+
+      <div class="library-tool-grid">
+        <article class="library-tool">Mina lån</article>
+        <article class="library-tool">E-böcker</article>
+        <article class="library-tool">Databaser</article>
+        <article class="library-tool">Studietips</article>
       </div>
-    </article>
+    </section>
 
-    <article class="library-resource-card">
-      <img src="images/skri.jpg" alt="Student med laptop" />
-      <div class="library-card-text">
-        <h3>Digitala resurser</h3>
-        <p>Utforska guider och material inom programmering och webbutveckling.</p>
-        <a href="https://www.hb.se/biblioteket/soka-information/" class="hero-btn">Läs mer</a>
+    <!-- Populära resurser -->
+    <section class="library-cards section-content">
+      <h2>Populärt just nu</h2>
+
+      <div class="library-card-grid">
+
+        <article class="library-resource-card">
+          <img src="images/sök.jpg" alt="Studenter som studerar" />
+          <div class="library-card-text">
+            <h3>Söka information</h3>
+            <p>Lär dig hitta rätt källor, databaser och artiklar för dina uppgifter.</p>
+            <a
+              href="https://gslg-hb.primo.exlibrisgroup.com/discovery/dbsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=46GSLG_BORAS:46BORAS_V1&lang=sv&offset=0&databases=category,Databases%20by%20type%E2%94%80Search%20engines"
+              class="hero-btn"
+            >
+              Läs mer
+            </a>
+          </div>
+        </article>
+
+        <article class="library-resource-card">
+          <img src="images/bibliotek.jpg" alt="Böcker i bibliotek" />
+          <div class="library-card-text">
+            <h3>Skriva och referera</h3>
+            <p>Få hjälp med referenser, källkritik och akademiskt skrivande.</p>
+            <a
+              href="https://gslg-hb.primo.exlibrisgroup.com/discovery/dbsearch?query=contains,dbcategory,&tab=jsearch_slot&sortby=title&vid=46GSLG_BORAS:46BORAS_V1&lang=sv&offset=0&databases=category,Databases%20by%20type%E2%94%80Reference%20databases"
+              class="hero-btn"
+            >
+              Läs mer
+            </a>
+          </div>
+        </article>
+
+        <article class="library-resource-card">
+          <img src="images/skri.jpg" alt="Student med laptop" />
+          <div class="library-card-text">
+            <h3>Digitala resurser</h3>
+            <p>Utforska guider och material inom programmering och webbutveckling.</p>
+            <a href="https://www.hb.se/biblioteket/soka-information/" class="hero-btn">
+              Läs mer
+            </a>
+          </div>
+        </article>
+
       </div>
-    </article>
-  </div>
-</section>
+    </section>
 
-<section class="library-info-box section-content">
-  <div class="library-info-content">
-    <h2>Behöver du hjälp?</h2>
-    <p>Kontakta UniNet om du behöver stöd med att hitta material eller använda bibliotekets resurser.</p>
-    <a href="contact.html" class="hero-btn">Kontakta oss</a>
-  </div>
-</section>
+    <!-- Kontaktsektion -->
+    <section class="library-info-box section-content">
+      <div class="library-info-content">
+        <h2>Behöver du hjälp?</h2>
+        <p>
+          Kontakta UniNet om du behöver stöd med att hitta material eller använda bibliotekets resurser.
+        </p>
+        <a href="contact.html" class="hero-btn">Kontakta oss</a>
+      </div>
+    </section>
 
-  <!--FOOTERRR-->
-<footer class="footer">
-  <div class="section-content footer-content">
-    <div class="footer-column">
-      <h3>UniNet</h3>
-      <p>En plattform för studenter som vill ha bättre struktur i sin studievardag.</p>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="section-content footer-content">
+
+      <div class="footer-column">
+        <h3>UniNet</h3>
+        <p>En plattform för studenter som vill ha bättre struktur i sin studievardag.</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Snabblänkar</h3>
+        <a href="index.html">Hem</a>
+        <a href="features.html">Funktioner</a>
+        <a href="planner.html">Planerare</a>
+        <a href="library.html">Bibliotek</a>
+        <a href="contact.html">Kontakt</a>
+      </div>
+
+      <div class="footer-column">
+        <h3>Kontakt</h3>
+        <p>support@uninet.se</p>
+        <p>© 2026 UniNet</p>
+      </div>
+
     </div>
-
-    <div class="footer-column">
-      <h3>Snabblänkar</h3>
-      <a href="index.html">Hem</a>
-      <a href="features.html">Funktioner</a>
-      <a href="planner.html">Planerare</a>
-      <a href="library.html">Bibliotek</a>
-      <a href="contact.html">Kontakt</a>
-    </div>
-
-    <div class="footer-column">
-      <h3>Kontakt</h3>
-      <p>support@uninet.se</p>
-      <p>© 2026 UniNet</p>
-    </div>
-  </div>
-</footer>
-
+  </footer>
 
 </body>
-  
+</html>

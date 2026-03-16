@@ -3,26 +3,43 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>UniNet | Planerare</title>
-  <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="images/Logo.png">
 
+  <!-- Sidtitel -->
+  <title>UniNet | Planerare</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/Logo.png">
+
+  <!-- Confetti-bibliotek för animation när uppgift klaras -->
   <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+  <!-- Eget JavaScript -->
   <script defer src="js/main.js"></script>
 </head>
+
 <body>
 
+  <!-- Overlay används när mobilmenyn öppnas -->
   <div class="menu-overlay" id="menuOverlay"></div>
 
-  <!-- Header/Navbar -->
+  <!-- ===== HEADER / NAVBAR ===== -->
   <header>
     <nav class="navbar section-content">
-<a href="index.html" class="nav-logo">
-  <img src="images/Logo.png" alt="UniNet logga" class="logo-img">
-</a>
 
-      <button class="menu-toggle" type="button" aria-label="Öppna meny">Meny ☰</button>
+      <!-- Logotyp -->
+      <a href="index.html" class="nav-logo">
+        <img src="images/Logo.png" alt="UniNet logga" class="logo-img">
+      </a>
 
+      <!-- Mobilmeny-knapp -->
+      <button class="menu-toggle" type="button" aria-label="Öppna meny" aria-expanded="false">
+        Meny ☰
+      </button>
+
+      <!-- Navigationslänkar -->
       <ul class="nav-menu" id="navMenu">
         <li class="nav-item"><a href="index.html" class="nav-link">Hem</a></li>
         <li class="nav-item"><a href="features.html" class="nav-link">Funktioner</a></li>
@@ -30,13 +47,19 @@
         <li class="nav-item"><a href="library.html" class="nav-link">Bibliotek</a></li>
         <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
       </ul>
+
     </nav>
   </header>
 
+
+  <!-- ===== HUVUDINNEHÅLL ===== -->
   <main>
-    <!-- Hero -->
+
+    <!-- Hero-sektion -->
     <section class="hero-section">
+
       <div class="hero-details">
+
         <h1 class="title">Planerare</h1>
         <h2 class="subtitle">Håll koll på uppgifter, datum och kommande händelser</h2>
 
@@ -45,20 +68,27 @@
           händelser direkt i kalendern.
         </p>
 
+        <!-- Snabblänkar till delar av sidan -->
         <div class="buttons">
           <a href="#checklista" class="hero-btn hero-btn-outline">Till checklistan</a>
           <a href="#kalender" class="hero-btn hero-btn-outline">Till kalendern</a>
         </div>
+
       </div>
+
     </section>
 
-    <!-- Planner -->
+
+    <!-- ===== PLANERARE ===== -->
     <section class="planner-section">
+
       <div class="section-content">
 
         <div class="planner-grid">
-          <!-- Checklista -->
+
+          <!-- ===== CHECKLISTA ===== -->
           <article class="planner-card" id="checklista">
+
             <h2>Studiechecklista</h2>
             <p>Lägg till uppgifter och bocka av dem när de är klara.</p>
 
@@ -68,24 +98,42 @@
                 id="taskInput"
                 placeholder="Skriv en uppgift..."
                 aria-label="Ny uppgift">
-              <button id="addTaskBtn" type="button">Lägg till</button>
+
+              <button id="addTaskBtn" type="button">
+                Lägg till
+              </button>
             </div>
 
+            <!-- Uppgifter visas här -->
             <ul id="taskList" class="task-list"></ul>
+
           </article>
 
-          <!-- Kalender -->
+
+          <!-- ===== KALENDER ===== -->
           <article class="planner-card" id="kalender">
+
             <h2>Kalender</h2>
             <p>Klicka på ett datum och lägg till en händelse.</p>
 
             <div class="calendar-box">
+
+              <!-- Byta månad -->
               <div class="calendar-header">
-                <button id="prevMonthBtn" type="button" aria-label="Föregående månad">←</button>
+
+                <button id="prevMonthBtn" type="button" aria-label="Föregående månad">
+                  ←
+                </button>
+
                 <h3 id="calendarMonthYear">Månad År</h3>
-                <button id="nextMonthBtn" type="button" aria-label="Nästa månad">→</button>
+
+                <button id="nextMonthBtn" type="button" aria-label="Nästa månad">
+                  →
+                </button>
+
               </div>
 
+              <!-- Veckodagar -->
               <div class="calendar-days">
                 <div>Mån</div>
                 <div>Tis</div>
@@ -96,42 +144,73 @@
                 <div>Sön</div>
               </div>
 
+              <!-- Datum genereras via JavaScript -->
               <div id="calendarDates" class="calendar-dates"></div>
+
             </div>
 
+
+            <!-- Lägg till händelse -->
             <div class="event-box">
+
               <h3>Lägg till händelse</h3>
-              <p id="selectedDateText">Välj ett datum i kalendern</p>
+
+              <p id="selectedDateText">
+                Välj ett datum i kalendern
+              </p>
 
               <div class="event-input-row">
+
                 <input
                   type="text"
                   id="eventInput"
                   placeholder="Skriv en händelse..."
                   aria-label="Ny händelse">
-                <button id="addEventBtn" type="button">Lägg till</button>
+
+                <button id="addEventBtn" type="button">
+                  Lägg till
+                </button>
+
               </div>
+
             </div>
+
           </article>
+
         </div>
 
-        <!-- Kommande händelser -->
+
+        <!-- ===== KOMMANDE HÄNDELSER ===== -->
         <section class="planner-card upcoming-card">
+
           <h2>Kommande händelser</h2>
-          <p>Här visas dina sparade händelser i datumordning.</p>
+
+          <p>
+            Här visas dina sparade händelser i datumordning.
+          </p>
+
+          <!-- Händelser genereras via JavaScript -->
           <ul id="eventList" class="event-list"></ul>
+
         </section>
 
       </div>
+
     </section>
+
   </main>
 
-  <!-- Footer -->
+
+  <!-- ===== FOOTER ===== -->
   <footer class="footer">
+
     <div class="section-content footer-content">
+
       <div class="footer-column">
         <h3>UniNet</h3>
-        <p>En plattform för studenter som vill ha bättre struktur i sin studievardag.</p>
+        <p>
+          En plattform för studenter som vill ha bättre struktur i sin studievardag.
+        </p>
       </div>
 
       <div class="footer-column">
@@ -148,7 +227,9 @@
         <p>support@uninet.se</p>
         <p>© 2026 UniNet</p>
       </div>
+
     </div>
+
   </footer>
 
 </body>

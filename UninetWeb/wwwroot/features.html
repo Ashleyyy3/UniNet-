@@ -3,171 +3,178 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <title>UniNet | Funktioner</title>
 
+  <!-- Sidans titel i webbläsaren -->
+  <title>UniNet | Funktioner</title>
+
+  <!-- Länk till extern CSS -->
   <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
   <link rel="icon" type="image/png" href="images/Logo.png">
+
+  <!-- JavaScript som laddas efter HTML -->
   <script defer src="js/main.js"></script>
 </head>
+
 <body>
- 
+
+  <!-- Overlay som används när mobilmenyn öppnas -->
   <div class="menu-overlay" id="menuOverlay"></div>
 
-  <!--Header/Navbar-->
+  <!-- ===== HEADER / NAVIGATION ===== -->
   <header>
-    <nav class = "navbar section-content">
-<a href="index.html" class="nav-logo">
-  <img src="images/Logo.png" alt="UniNet logga" class="logo-img">
-</a>
+    <nav class="navbar section-content">
 
-      <button class="menu-toggle" type="button">Meny ☰</button>
+      <!-- Logotyp som leder till startsidan -->
+      <a href="index.html" class="nav-logo">
+        <img src="images/Logo.png" alt="UniNet logga" class="logo-img">
+      </a>
 
+      <!-- Mobilmeny-knapp -->
+      <button class="menu-toggle" type="button" aria-label="Öppna meny" aria-expanded="false">
+        Meny ☰
+      </button>
+
+      <!-- Navigationsmeny -->
       <ul class="nav-menu" id="navMenu">
-        <li class="nav-item">
-          <a href="index.html" class="nav-link">Hem</a>
-        </li>
-        <li class="nav-item">
-          <a href="features.html" class="nav-link">Funktioner</a>
-        </li>
-        <li class="nav-item">
-          <a href="planner.html" class="nav-link">Planerare </a>
-        </li>
-        <li class="nav-item">
-          <a href="library.html" class="nav-link">Bibliotek</a>
-        </li>
-        <li class="nav-item">
-          <a href="contact.html" class="nav-link">Kontakt</a>
-        </li>
-
+        <li class="nav-item"><a href="index.html" class="nav-link">Hem</a></li>
+        <li class="nav-item"><a href="features.html" class="nav-link">Funktioner</a></li>
+        <li class="nav-item"><a href="planner.html" class="nav-link">Planerare</a></li>
+        <li class="nav-item"><a href="library.html" class="nav-link">Bibliotek</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link">Kontakt</a></li>
       </ul>
 
     </nav>
   </header>
 
 
-<!--ALLA ANDRA KOD HÄR INNE -->
+  <!-- ===== HUVUDINNEHÅLL ===== -->
+  <main>
 
-   <main>
-  <section class="about-section section-content">
-    <div class="about-text">
-      <h2>Våra funktioner</h2>
-      <p>
-        UniNet samlar viktiga verktyg på ett och samma ställe för att göra
-        studievardagen enklare. Här hittar du funktioner som hjälper dig att
-        planera, hitta resurser och hålla kontakt.
-      </p>
-      <p>
-        Klicka på en funktion för att läsa mer eller komma vidare till rätt sida.
-      </p>
-    </div>
+    <!-- Sektion som beskriver funktionerna i UniNet -->
+    <section class="about-section section-content">
 
-    <div class="features-scroll">
-      <a href="planner.html" class="feature-card" style="text-decoration: none; color: inherit;">
-        <img src="images/schema.png" alt="Schema och deadlines i UniNet" class="feature-img">
-        <h3>Schema</h3>
+      <div class="about-text">
+        <h1>Våra funktioner</h1>
+
         <p>
-          Se föreläsningar, tider och viktiga deadlines i en tydlig översikt.
+          UniNet samlar viktiga verktyg på ett och samma ställe för att göra
+          studievardagen enklare. Här hittar du funktioner som hjälper dig att
+          planera, hitta resurser och hålla kontakt.
         </p>
-      </a>
 
-      <a href="planner.html" class="feature-card" style="text-decoration: none; color: inherit;">
-        <img src="images/planerare.jpg" alt="Planerare i UniNet" class="feature-img">
-        <h3>Planerare</h3>
         <p>
-          Planera uppgifter och strukturera din vecka för att få bättre kontroll.
+          Klicka på en funktion för att läsa mer eller komma vidare till rätt sida.
         </p>
-      </a>
+      </div>
 
-      <a href="#" class="feature-card" style="text-decoration: none; color: inherit;">
-        <img src="images/rum.jpg" alt="Rumsbokning i UniNet" class="feature-img">
-        <h3>Rumsbokning</h3>
-        <p>
-          Boka studierum för grupparbete eller eget plugg på ett enkelt sätt.
-        </p>
-      </a>
+      <!-- Scrollbar med funktionskort -->
+      <div class="features-scroll">
 
-      <a href="library.html" class="feature-card" style="text-decoration: none; color: inherit;">
-        <img src="images/bibliotek.jpg" alt="Bibliotek i UniNet" class="feature-img">
-        <h3>Bibliotek</h3>
-        <p>
-          Hitta kursmaterial, guider, e-böcker och andra användbara resurser.
-        </p>
-      </a>
+        <!-- Schema -->
+        <a href="planner.html" class="feature-card">
+          <img src="images/schema.png" alt="Schema och deadlines i UniNet" class="feature-img">
+          <h3>Schema</h3>
+          <p>Se föreläsningar, tider och viktiga deadlines i en tydlig översikt.</p>
+        </a>
 
-      <a href="contact.html" class="feature-card" style="text-decoration: none; color: inherit;">
-        <img src="images/contact.jpeg" alt="Kontakt och feedback i UniNet" class="feature-img">
+        <!-- Planerare -->
+        <a href="planner.html" class="feature-card">
+          <img src="images/planerare.jpg" alt="Planerare i UniNet" class="feature-img">
+          <h3>Planerare</h3>
+          <p>Planera uppgifter och strukturera din vecka för att få bättre kontroll.</p>
+        </a>
+
+        <!-- Rumsbokning (ej implementerad ännu) -->
+        <article class="feature-card">
+          <img src="images/rum.jpg" alt="Rumsbokning i UniNet" class="feature-img">
+          <h3>Rumsbokning</h3>
+          <p>Boka studierum för grupparbete eller eget plugg på ett enkelt sätt.</p>
+        </article>
+
+        <!-- Bibliotek -->
+        <a href="library.html" class="feature-card">
+          <img src="images/bibliotek.jpg" alt="Bibliotek i UniNet" class="feature-img">
+          <h3>Bibliotek</h3>
+          <p>Hitta kursmaterial, guider, e-böcker och andra användbara resurser.</p>
+        </a>
+
+        <!-- Kontakt -->
+        <a href="contact.html" class="feature-card">
+          <img src="images/contact.jpeg" alt="Kontakt och feedback i UniNet" class="feature-img">
+          <h3>Kontakt</h3>
+          <p>Skicka frågor eller feedback till UniNet via vårt kontaktformulär.</p>
+        </a>
+
+      </div>
+    </section>
+
+
+    <!-- Förklarar nyttan med funktionerna -->
+    <section class="benefits-section section-content">
+
+      <h2>Hur hjälper funktionerna studenten?</h2>
+
+      <div class="benefits-grid">
+
+        <div class="benefit-box">
+          <h3>Bättre överblick</h3>
+          <p>Studenten får en tydligare bild av schema, uppgifter och resurser på ett ställe.</p>
+        </div>
+
+        <div class="benefit-box">
+          <h3>Mindre stress</h3>
+          <p>Genom att samla viktiga funktioner minskar känslan av att behöva växla mellan många system.</p>
+        </div>
+
+        <div class="benefit-box">
+          <h3>Enklare navigation</h3>
+          <p>Funktionerna presenteras tydligt med kort, text och länkar som gör webbplatsen lätt att använda.</p>
+        </div>
+
+      </div>
+    </section>
+
+
+    <!-- Call-to-action sektion -->
+    <section class="cta-section">
+      <div class="section-content cta-content">
+        <h2>Vill du börja planera smartare?</h2>
+        <p>Gå vidare till planeraren eller kontakta oss om du har frågor om UniNet.</p>
+        <a href="planner.html" class="hero-btn hero-btn-outline">Öppna planeraren</a>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="section-content footer-content">
+
+      <div class="footer-column">
+        <h3>UniNet</h3>
+        <p>En plattform för studenter som vill ha bättre struktur i sin studievardag.</p>
+      </div>
+
+      <div class="footer-column">
+        <h3>Snabblänkar</h3>
+        <a href="index.html">Hem</a>
+        <a href="features.html">Funktioner</a>
+        <a href="planner.html">Planerare</a>
+        <a href="library.html">Bibliotek</a>
+        <a href="contact.html">Kontakt</a>
+      </div>
+
+      <div class="footer-column">
         <h3>Kontakt</h3>
-        <p>
-          Skicka frågor eller feedback till UniNet via vårt kontaktformulär.
-        </p>
-      </a>
-    </div>
-  </section>
-
-  <section class="benefits-section section-content">
-    <h2>Hur hjälper funktionerna studenten?</h2>
-
-    <div class="benefits-grid">
-      <div class="benefit-box">
-        <h3>Bättre överblick</h3>
-        <p>
-          Studenten får en tydligare bild av schema, uppgifter och resurser på ett ställe.
-        </p>
+        <p>support@uninet.se</p>
+        <p>© 2026 UniNet</p>
       </div>
 
-      <div class="benefit-box">
-        <h3>Mindre stress</h3>
-        <p>
-          Genom att samla viktiga funktioner minskar känslan av att behöva växla mellan många system.
-        </p>
-      </div>
-
-      <div class="benefit-box">
-        <h3>Enklare navigation</h3>
-        <p>
-          Funktionerna presenteras tydligt med kort, text och länkar som gör webbplatsen lätt att använda.
-        </p>
-      </div>
     </div>
-  </section>
-
-  <section class="cta-section">
-    <div class="section-content cta-content">
-      <h2>Vill du börja planera smartare?</h2>
-      <p>
-        Gå vidare till planeraren eller kontakta oss om du har frågor om UniNet.
-      </p>
-      <a href="planner.html" class="hero-btn hero-btn-outline">Öppna planeraren</a>
-    </div>
-  </section>
-</main>
-
-
-  <!--FOOTERRR-->
-<footer class="footer">
-  <div class="section-content footer-content">
-    <div class="footer-column">
-      <h3>UniNet</h3>
-      <p>En plattform för studenter som vill ha bättre struktur i sin studievardag.</p>
-    </div>
-
-    <div class="footer-column">
-      <h3>Snabblänkar</h3>
-      <a href="index.html">Hem</a>
-      <a href="features.html">Funktioner</a>
-      <a href="planner.html">Planerare</a>
-      <a href="library.html">Bibliotek</a>
-      <a href="contact.html">Kontakt</a>
-    </div>
-
-    <div class="footer-column">
-      <h3>Kontakt</h3>
-      <p>support@uninet.se</p>
-      <p>© 2026 UniNet</p>
-    </div>
-  </div>
-</footer>
-
+  </footer>
 
 </body>
-  
+</html>

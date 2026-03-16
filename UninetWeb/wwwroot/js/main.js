@@ -1,16 +1,14 @@
 // Active navigation link
-const currentPage = window.location.pathname.split("/").pop();
+const currentPage = window.location.pathname.split("/").pop() || "index.html";
 
 const navLinks = document.querySelectorAll(".nav-link");
 
 navLinks.forEach(link => {
-
   const linkPage = link.getAttribute("href");
 
   if (linkPage === currentPage) {
     link.classList.add("active");
   }
-
 });
 
 function launchConfetti() {
@@ -57,6 +55,9 @@ if (btn && menu) {
   btn.addEventListener("click", () => {
     menu.classList.toggle("open");
 
+    const isOpen = menu.classList.contains("open");
+    btn.setAttribute("aria-expanded", isOpen);
+
     if (overlay) {
       overlay.classList.toggle("show");
     }
@@ -66,8 +67,21 @@ if (btn && menu) {
     overlay.addEventListener("click", () => {
       menu.classList.remove("open");
       overlay.classList.remove("show");
+      btn.setAttribute("aria-expanded", "false");
     });
   }
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") {
+      menu.classList.remove("open");
+
+      if (overlay) {
+        overlay.classList.remove("show");
+      }
+
+      btn.setAttribute("aria-expanded", "false");
+    }
+  });
 }
 
 // Contact form validation

@@ -60,6 +60,19 @@ img{
   max-width: var(--site-max-width);
 }
 
+/* Dold text för skärmläsare */
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
 /* NAVBAR */
 header{
   background: var(--primary-color);
@@ -107,6 +120,23 @@ header .navbar{
 .navbar .nav-menu .nav-link.active{
   background: var(--secondary-color);
   color: var(--dark-color);
+}
+
+/* Fokus för bättre tillgänglighet */
+.navbar .nav-menu .nav-link:focus,
+.menu-toggle:focus,
+.hero-btn:focus,
+.submit-btn:focus,
+.todo-input button:focus,
+.event-input-row button:focus,
+.calendar-header button:focus,
+.task-list li button:focus,
+.delete-event-btn:focus,
+.library-search-bar button:focus,
+.library-tool:focus,
+.footer-column a:focus{
+  outline: 3px solid #0f3550;
+  outline-offset: 2px;
 }
 
 /* HERO BANNER */
@@ -165,6 +195,7 @@ header .navbar{
 }
 
 .hero-btn{
+  display: inline-block;
   padding: 10px 18px;
   border-radius: 10px;
   font-size: var(--font-size-s);
@@ -264,7 +295,7 @@ header .navbar{
   }
 
   .logo-img{
-    height: 24px;
+    height: 40px;
   }
 }
 
@@ -280,6 +311,7 @@ header .navbar{
   text-align: center;
 }
 
+.about-text h1,
 .about-text h2{
   font-size: 2.2rem;
   margin-bottom: 16px;
@@ -305,6 +337,8 @@ header .navbar{
   overflow: hidden;
   box-shadow: 0 6px 18px rgba(0,0,0,0.08);
   transition: transform 0.2s ease;
+  text-decoration: none;
+  color: inherit;
 }
 
 .feature-card:hover{
@@ -801,6 +835,7 @@ header .navbar{
 .form-group textarea:focus{
   outline: none;
   border-color: var(--primary-color);
+  box-shadow: 0 0 0 3px rgba(98,191,237,0.15);
 }
 
 .submit-btn{
@@ -843,7 +878,7 @@ header .navbar{
   margin-bottom: 10px;
 }
 
-.library-hero-simple p{
+.library-hero p{
   color: #24526b;
   margin-bottom: 25px;
   font-size: 1rem;
@@ -1097,7 +1132,7 @@ header .navbar{
     grid-template-columns: 1fr;
   }
 
-  .library-hero-simple h1{
+  .library-hero h1{
     font-size: 2rem;
   }
 }
