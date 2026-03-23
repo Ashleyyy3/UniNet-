@@ -11,40 +11,6 @@ navLinks.forEach(link => {
   }
 });
 
-function launchConfetti() {
-  if (typeof confetti !== "function") return;
-
-  confetti({
-    particleCount: 80,
-    angle: 60,
-    spread: 60,
-    origin: { x: 0 }
-  });
-
-  confetti({
-    particleCount: 80,
-    angle: 120,
-    spread: 60,
-    origin: { x: 1 }
-  });
-}
-
-function showSuccessMessage() {
-  const oldMessage = document.querySelector(".success-message");
-  if (oldMessage) {
-    oldMessage.remove();
-  }
-
-  const msg = document.createElement("div");
-  msg.classList.add("success-message");
-  msg.textContent = "🎉 Bra jobbat!";
-
-  document.body.appendChild(msg);
-
-  setTimeout(() => {
-    msg.remove();
-  }, 1800);
-}
 
 // Dropdown menu
 const btn = document.querySelector(".menu-toggle");
@@ -213,11 +179,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
         checkbox.addEventListener("change", () => {
           tasks[index].done = checkbox.checked;
-
-          if (checkbox.checked) {
-            launchConfetti();
-            showSuccessMessage();
-          }
 
           saveTasks();
           renderTasks();
